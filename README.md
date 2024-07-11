@@ -10,7 +10,10 @@ ex2: If in the input Python, Django, SQL are given as input and “Match all ski
 Whereas if “Match any skill” is selected and given the same input of Python, Django, SQL even though the profiles are not having Django but having Python, SQL the resume will be listed.
 
  
+Note: The CSV file will be saved in "matching_resumes_mmddyy_H-M-S" format so that even though the previous csv file is kept opened we can continue using the executable with different skill set, the csv file saves the ouput in a new document.
 
-Note: Please close the CSV file if you want to reuse the exe again for a different skill set, keeping the file open and using the exe again may close the exe.
+The document when opened, the header of the csv file has the below heading to understand the listed profiles skill set.
+ex: Matching Resumes - (Python, Django, SQL) - (Match All Skills)
+We can understand from the header that the given list of resumes are having skill set of all given three skills Python, Django, SQL.
 
 Please let me know if you face any issues or require any inputs in using the executable.
